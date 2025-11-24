@@ -1,0 +1,33 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text {
+  margin: 0;
+
+}
+
+.title {
+  margin: 0;
+}
+
+:root {
+  --second-family: "Montserrat", sans-serif;
+  --font-family: "DM Sans", sans-serif;
+}
+
+.text {
+  font-family: var(--font-family);
+}
+
+.title {
+  font-family: var(--second-family);
+}
+
+
+.top-anim {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}

@@ -1,0 +1,4 @@
+.popular__text {
+    margin-bottom: 40px;
+    font-size: clamp(0.625rem, 0.3977rem + 1.1364vw, 1.25rem);
+}

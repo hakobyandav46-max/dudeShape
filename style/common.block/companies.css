@@ -1,0 +1,29 @@
+.companies {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.companies__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #244d4d;
+    margin-bottom: 30px;
+}
+
+.companies__title,
+.companies__img {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.companies__title.active,
+.companies__img.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.companies__img {
+    transition-delay: 0.3s;
+}

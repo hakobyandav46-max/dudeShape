@@ -1,0 +1,66 @@
+.hero__all {
+    display: flex;
+}
+
+.hero__chair-img {
+    width: 100%;
+    height: 560px;
+}
+
+.hero__info {
+    background-color: #154444;
+    color: white;
+    max-width: 1200px;
+    height: 560px;
+    align-items: center;
+    padding: 30px 200px 30px 150px;
+}
+
+.hero__info-title {
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.hero__info-text {
+    line-height: 125%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.hero__info-button {
+    background-color: white;
+    color: #154444;
+    width: 172px;
+    height: 56px;
+    transition: 0.5s;
+}
+
+.hero__info-button:hover {
+    background-color: rgb(204, 204, 251);
+    color: white;
+}
+
+.hero__img {
+    width: 100%;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: transform 0.5s, opacity 1s;
+}
+
+.hero__chair,
+.hero__info {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.hero__chair.active,
+.hero__info.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hero__info {
+    transition-delay: 0.3s;
+}

@@ -1,0 +1,41 @@
+.sub__container {
+    background: #f4f6f6;
+    text-align: center;
+}
+
+.sub__title {
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sub__text {
+    margin-bottom: 20px;
+}
+
+.sub__email {
+    background: url(../../img/email.png) no-repeat 10px 23px;
+    padding-left: 36px;
+    max-width: 800px;
+    height: 65px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 40px;
+    width: 30%;
+    font-size: 18px;
+    color: #444;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sub__btn {
+    margin-bottom: 30px;
+    background: #305f64;
+    padding: 24px 30px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.sub__btn:hover {
+    background: #154444;
+    cursor: pointer;
+}

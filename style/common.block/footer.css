@@ -1,0 +1,182 @@
+.footer {
+    background-color: #154444;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer__all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.footer__about {
+    max-width: 300px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.footer__about-title {
+    margin-bottom: 10px;
+}
+
+.footer__about-text {
+    margin-bottom: 20px;
+}
+
+.footer__about__title {
+    margin-bottom: 10px;
+}
+
+.footer__about-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.footer__about-list-svg {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__about-item {
+    color: #ffffff;
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.footer__tour {
+    max-width: 200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.footer__tour-title {
+    margin-bottom: 10px;
+}
+
+.footer__tour-list {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__tour-item {
+    margin-bottom: 10px;
+}
+
+.footer__company {
+    max-width: 200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.footer__company-title {
+    margin-bottom: 10px;
+}
+
+.footer__company-list {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__company-item {
+    margin-bottom: 10px;
+}
+
+.footer__sub {
+    max-width: 300px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.footer__sub-title {
+    margin-bottom: 10px;
+}
+
+.footer__sub-text {
+    margin-bottom: 10px;
+}
+
+.footer__sub-email {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.footer__sub-email-img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.footer__sub-email-input {
+    border: 0;
+    padding: 5px 20px;
+    flex-grow: 1;
+    font-size: 16px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.footer__down {
+    border-top: 3px solid #407980;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer__down-text {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.footer__sub-email__form {
+    display: flex;
+    width: 100%;
+}
+
+.footer__sub-btn {
+    width: 50px;
+    border: none;
+    background-color: white;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer__sub-email-img {
+    width: 40px;
+    height: 38px;
+    background-color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
